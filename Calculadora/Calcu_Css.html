@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div>
+        <section class="section">
+            <div class="container box" >
+                <div class="columns is-centered">
+                    <div class="column is-half">
+                        <div>
+                            <div>
+                                <progress class="progress is-danger" max="100">
+                                    30%
+                                </progress>
+                            </div>
+                            <h3 class="title is-3 has-text-centered">Calculadora con css V2</h3>
+                            <form id="inputs" method="post">
+                                <div class="field">
+                                    <div class="control">
+                                        <input type="number" class="input" id="numero1" placeholder="Número 1" name="numero1">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="control">
+                                        <input type="number" class="input" id="numero2" placeholder="Número 2" name="numero2">
+                                    </div>
+                                </div>
+                            </form>
+    
+                            <div class="columns is-mobile is-multiline is-centered">
+                                <div class="column is-half">
+                                    <button id="suma" class="button is-primary is-fullwidth">Suma</button>
+                                </div>
+                                <div class="column is-half">
+                                    <button id="division" class="button is-link is-fullwidth">División</button>
+                                </div>
+                                <div class="column is-half">
+                                    <button id="resta" class="button is-warning is-fullwidth">Resta</button>
+                                </div>
+                                <div class="column is-half">
+                                    <button id="multiplicacion" class="button is-info is-fullwidth">Multiplicación</button>
+                                </div>
+                                <div class="column is-full">
+                                    <button id="borrar" class="button is-dark is-fullwidth">Borrar</button>
+                                </div>
+                            </div>
+    
+                            <div id="resultado" class="notification is-light text is-dark"></div>
+                            <div class="has-text-centered">
+                                <img class="is-fullwidth" src="https://media3.giphy.com/media/NTur7XlVDUdqM/200.webp?cid=790b7611twb5x43ec8pdhxjq9lsc74hrx8625vhoklflqjzh&ep=v1_gifs_search&rid=200.webp&ct=g">
+                            </div>
+                            <div>
+                                <progress class="progress is-danger" max="100">
+                                    30%
+                                </progress>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="Funciones.js"></script>
+    </div>
+</body>
+</html>
